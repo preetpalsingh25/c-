@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{   int x=10;
+    int edge_of_the_clif=10;
+    
+    do{
+        x=x+1;
+        cout<<"you are at step number "<<x<<endl;
+    }
+    while(x<edge_of_the_clif);
+    
+    cout<<"finish"<<endl;
+    
+    if(x>edge_of_the_clif)
+    {
+        cout<<"you are in the clif"<<endl;
+    }
+    
+    return 0;
+}
